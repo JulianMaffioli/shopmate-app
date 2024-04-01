@@ -8,8 +8,9 @@ export const useCart = () => {
   useEffect(() => {
     //Updates Cart Items Count
     const handleCartChange = () => {
-      const cart = JSON.parse(localStorage.getItem("Cart"));
-      cart ? cart : [];
+      const cartJSON = localStorage.getItem("Cart");
+      const cart = cartJSON ? JSON.parse(cartJSON) : [];
+
       let productCount = 0;
       cart.map((item) =>
         item.count ? (productCount += item.count) : productCount++
