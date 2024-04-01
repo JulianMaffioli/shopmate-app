@@ -1,0 +1,40 @@
+{
+  "products": [
+    {
+      "id": 1001,
+      "name": "Bose QuietComfort Wireless Noise Cancelling",
+      "price": 379,
+      "image": "/assets/images/1001.png"
+    },
+    {
+      "id": 1002,
+      "name": "JBL Tune 510BT Wireless Noise",
+      "price": 54.99,
+      "image": "/assets/images/1002.png"
+    },
+    {
+      "id": 1003,
+      "name": "Beats Solo3 ",
+      "price": 99,
+      "image": "/assets/images/1003.png"
+    },
+    {
+      "id": 1004,
+      "name": "Beats Studio Pro",
+      "price": 199,
+      "image": "/assets/images/1004.png"
+    },
+    {
+      "id": 1005,
+      "name": "Soundcore by Anker Life Q30",
+      "price": 55.99,
+      "image": "/assets/images/1005.png"
+    },
+    {
+      "id": 1006,
+      "name": "Sony WH-1000XM4",
+      "price": 249,
+      "image": "/assets/images/1006.png"
+    }
+  ]
+}
