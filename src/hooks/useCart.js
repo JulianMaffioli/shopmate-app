@@ -9,6 +9,7 @@ export const useCart = () => {
     //Updates Cart Items Count
     const handleCartChange = () => {
       const cart = JSON.parse(localStorage.getItem("Cart"));
+      cart ? cart : [];
       let productCount = 0;
       cart.map((item) =>
         item.count ? (productCount += item.count) : productCount++
